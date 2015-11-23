@@ -1,12 +1,12 @@
 function multiples(){
   var x, text;
 
-  x = document.getElementbyId("numb").value;
+  x = document.getElementById("numb").value;
 
-  if(x === 1000){
+  if(x == 1000){
     text = "Teste";
   } else {
     text = "outro";
   }
-  document.getElementbyId("demo").innetHTML = text;
+  document.getElementById("demo").innerHTML = text;
 }
