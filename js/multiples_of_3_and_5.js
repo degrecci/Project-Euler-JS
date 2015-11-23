@@ -2,7 +2,7 @@ function multiplesOf(){
 
   var valor, somamultiplos = 0;
 
-  valor = document.getElementById("numb").value;
+  valor = document.getElementById("number").value;
 
   for (var i = 1; i < valor; i++) {
 
