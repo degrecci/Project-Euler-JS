@@ -66,12 +66,12 @@
             <div class="container-fluid" style="margin-top:-20px;">
                 <div class="row">
                     <div class="col-lg-12">
-                      <h2><b>Multiples of 3 and 5</b></h2>
+                      <h2><b>Largest palindrome product</b></h2>
                       <br>
-                      <h4>Problem 1</h4>
+                      <h4>Problem 4</h4>
 
-                      <p>If we list all the natural numbers below 10 that are multiples of 3 or 5, we get 3, 5, 6 and 9. The sum of these multiples is 23.</p>
-                      <p>Find the sum of all the multiples of 3 or 5 below 1000.</p>
+                      <p>A palindromic number reads the same both ways. The largest palindrome made from the product of two 2-digit numbers is 9009 = 91 × 99.</p>
+                      <p>Find the largest palindrome made from the product of two 3-digit numbers.</p>
                     </div>
 
                     <div class="col-lg-3">
@@ -79,41 +79,24 @@
                       <div class="input-group">
                         <input type="number" id="number" class="form-control" placeholder="Below...">
                       <span class="input-group-btn">
-                        <button class="btn btn-danger" type="button" onclick="multiplesOf()" style="margin-bottom: 20px;">Go!</button>
-                      </div>
+                        <button class="btn btn-danger" type="button" onclick="fibonacci()" style="margin-bottom: 20px;">Go!</button>
                     </div>
-                      <div class="col-lg-12">
-                        <p id="val"></p>
-                        <strong><p id="mult" style="margin-top: 10px "></p></strong>
-                        <!-- <code style="color: black"><p>function multiplesOf() {</p>
+                    </div>
 
-                          <p>var valor, somamultiplos = 0;</p>
-
-                          <p>valor = document.getElementById("number").value;</p>
-
-                          <p>for (var i = 1; i < valor; i++) {</p>
-
-                          <p>&nbsp if (i % 3 == 0 || i % 5 == 0) {</p>
-                          <p>&nbsp somamultiplos += i;</p>
-                          <p>&nbsp }<p>
-
-                          <p>}
-                          <p>document.getElementById("mult").innerHTML = somamultiplos;</p>
-                          <p>document.getElementById("val").innerHTML = "The sum of all the multiples of 3 or 5 below</p> &ltstrong&gt" + valor + "&lt/strong&gt is: ";</p>
-                        } -->
-                      </code>
+                    <div class="col-lg-12">
+                      <br>
+                      <p id="palindrome"></p>
                     </div>
                 </div>
             </div>
         </div>
-
     </div>
 
     <script src="../js/jquery.js"></script>
     <!-- Bootstrap Core JavaScript -->
     <script src="../js/bootstrap.min.js"></script>
     <!-- Resolution script -->
-    <script src="../js/multiples_of_3_and_5.js"></script>
+    <script src="../js/largest_palindrome_product.js"></script>
 
     <!-- Menu Toggle Script -->
     <script>
