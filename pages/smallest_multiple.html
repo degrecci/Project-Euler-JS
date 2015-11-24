@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Project Euler JS</title>
+    <!-- Bootstrap Core CSS -->
+    <link href="../css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link href="../css/simple-sidebar.css" rel="stylesheet">
+    <!-- NavBar Font -->
+    <link href='https://fonts.googleapis.com/css?family=Coda' rel='stylesheet' type='text/css'>
+
+    <style>
+      div#sidebar-wrapper
+      {
+        font-family: 'Coda', cursive;
+        font-size: 11pt;
+      }
+    </style>
+
+</head>
+
+<body>
+
+    <div id="wrapper">
+        <!-- Sidebar -->
+        <div id="sidebar-wrapper">
+            <ul class="sidebar-nav">
+              <img src="../img/js.png" alt="js logo" class="img-responsive center-block" style="margin-top:30pt; margin-bottom:20pt;">
+                <li class="sidebar-brand">
+                    <a href="../index.html">
+                        <b>Project Euler JS</b>
+                    </a>
+                </li>
+                <li>
+                    <a href="multiples_of_3_and_5.html">Multiples of 3 and 5</a>
+                </li>
+                <li>
+                    <a href="even_fibonacci_numbers.html">Even Fibonacci numbers</a>
+                </li>
+                <li>
+                    <a href="largest_prime_factor.html">Largest prime factor</a>
+                </li>
+                <li>
+                    <a href="largest_palindrome_product.html">Largest palindrome product</a>
+                </li>
+                <li>
+                    <a href="smallest_multiple.html">Smallest multiple</a>
+                </li>
+                <li>
+                    <a href="sum_square_difference.html">Sum square difference</a>
+                </li>
+                <li>
+                    <a href="10001st_prime.html">10001st prime</a>
+                </li>
+            </ul>
+        </div>
+
+        <div id="page-content-wrapper">
+            <div class="container-fluid" style="margin-top:-20px;">
+                <div class="row">
+                    <div class="col-lg-12">
+                      <h2><b>Smallest multiple</b></h2>
+                      <br>
+                      <h4>Problem 5</h4>
+
+                      <p>2520 is the smallest number that can be divided by each of the numbers from 1 to 10 without any remainder.</p>
+                      <p>What is the smallest positive number that is evenly divisible by all of the numbers from 1 to 20?</p>
+                    </div>
+
+                    <div class="col-lg-3">
+                      <br>
+                      <div class="input-group">
+                        <input type="number" id="number" class="form-control" placeholder="Below...">
+                      <span class="input-group-btn">
+                        <button class="btn btn-danger" type="button" onclick="fibonacci()" style="margin-bottom: 20px;">Go!</button>
+                    </div>
+                    </div>
+
+                    <div class="col-lg-12">
+                      <br>
+                      <p id="multiple"></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="../js/jquery.js"></script>
+    <!-- Bootstrap Core JavaScript -->
+    <script src="../js/bootstrap.min.js"></script>
+    <!-- Resolution script -->
+    <script src="../js/largest_palindrome_product.js"></script>
+
+    <!-- Menu Toggle Script -->
+    <script>
+    $("#menu-toggle").click(function(e) {
+        e.preventDefault();
+        $("#wrapper").toggleClass("toggled");
+    });
+    </script>
+
+</body>
+
+</html>
