@@ -15,5 +15,6 @@ function fibonacci(){
           somatotal += c;
         }
     }
-    document.getElementById("soma").innerHTML = somatotal;
+    document.getElementById("seq").innerHTML = "Sequence: ";
+    document.getElementById("soma").innerHTML = "Sum of the even-valued terms: <strong>" + somatotal + "</strong>.";
 }
