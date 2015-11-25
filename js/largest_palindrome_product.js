@@ -1,4 +1,4 @@
-function fibonacci(){
+function largestPalindrome(){
 
 var x1 = 100, x2 = 100, resultado;
 var r = [];
@@ -17,7 +17,7 @@ var r = [];
       }
     }
   }
-  var maior = Math.max.apply(null,r)
+  var maior = Math.max.apply(null,r);
 
   document.getElementById("palindrome").innerHTML = "The largest palindrome made from the product of two 3-digit numbers is: " + maior;
 }
